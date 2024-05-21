@@ -1,0 +1,9 @@
+@baseUrl = https://8080-marcoweb-j2projetomodel-mgnua1ju1io.ws-us114.gitpod.io
+
+POST {{baseUrl}}/auth
+Content-Type: application/json
+
+{
+    "nomeDeUsuario": "fulano",
+    "senha": "123456"
+}
