@@ -1,0 +1,9 @@
+POST https://8080-otaviobonac-apiparap2ot-yazd3vissb3.ws-us114.gitpod.io/pedidos
+Content-Type: application/json
+
+{
+    "valor" : 150.0,
+    "formaPagamento" : "Cartão de Crédito",
+    "cliente" : {"id" : 1},
+    "motoboy" : {"id" : 1}
+}

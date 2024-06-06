@@ -1,4 +1,4 @@
-@baseUrl = https://8080-marcoweb-j2projetomodel-wsvoib82jkw.ws-us110.gitpod.io
+@baseUrl = https://8080-otaviobonac-apiparap2ot-yazd3vissb3.ws-us114.gitpod.io
 
 ###
 GET {{baseUrl}}/motoboys

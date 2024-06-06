@@ -1,4 +1,4 @@
-POST https://8080-marcoweb-j2projetomodel-rya3pcfv47n.ws-us110.gitpod.io/categorias
+POST https://8080-otaviobonac-apiparap2ot-yazd3vissb3.ws-us114.gitpod.io/pedidos
 Content-Type: application/json
 
 {
