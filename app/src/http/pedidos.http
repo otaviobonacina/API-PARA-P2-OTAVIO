@@ -1,0 +1,29 @@
+@baseUrl = https://8080-marcoweb-j2projetomodel-wsvoib82jkw.ws-us110.gitpod.io
+
+###
+GET {{baseUrl}}/pedidos
+
+###
+POST {{baseUrl}}/pedidos
+Content-Type: application/json
+
+{
+    "valor" : 150.0,
+    "formaPagamento" : "Cartão de Crédito",
+    "cliente" : {"id" : 1},
+    "motoboy" : {"id" : 1}
+}
+
+###
+PUT {{baseUrl}}/pedidos/1
+Content-Type: application/json
+
+{
+    "valor" : 200.0,
+    "formaPagamento" : "Dinheiro",
+    "cliente" : {"id" : 1},
+    "motoboy" : {"id" : 1}
+}
+
+###
+DELETE {{baseUrl}}/pedidos/1

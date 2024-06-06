@@ -1,0 +1,25 @@
+@baseUrl = https://8080-marcoweb-j2projetomodel-wsvoib82jkw.ws-us110.gitpod.io
+
+###
+GET {{baseUrl}}/clientes
+
+###
+POST {{baseUrl}}/clientes
+Content-Type: application/json
+
+{
+    "nome" : "Nome Exemplo",
+    "endereco" : "Endereço Exemplo"
+}
+
+###
+PUT {{baseUrl}}/clientes/1
+Content-Type: application/json
+
+{
+    "nome" : "Nome Exemplo Alterado",
+    "endereco" : "Endereço Exemplo Alterado"
+}
+
+###
+DELETE {{baseUrl}}/clientes/1
